@@ -1,3 +1,7 @@
-# mygirl
+# Introduction
 
-where are you
+This is whuwzp's wiki system!
+
+![](/source/img/sys/touxiang.jpg)
+
+

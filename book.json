@@ -1,0 +1,78 @@
+{
+    "title": "WHUWZP's WiKi",
+    "description": "各类信息汇总wiki系统",
+    "author": "whuwzp",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+   
+    "links": {
+        "sidebar": {
+            "WHUWZP's WiKi": "http://wiki.whuwzp.top"
+        }
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "search-plus",
+
+        "prism",
+        "-highlight",
+
+        "-katex",
+        "mathjax",
+
+        "include-codeblock",
+        "splitter",
+        "expandable-chapters-small",
+        "simple-page-toc",
+        "anchors" ,
+        "anchor-navigation-ex@0.1.8",
+        "todo",
+        "copy-code-button",
+        "alerts",
+        "tbfed-pagefooter",
+        "favicon",
+        "graph"
+
+    ],
+
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+              
+        
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": true
+        },
+        
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © whuwzp.top 2018",
+            "modify_label": "本文档修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        
+       
+        "anchor-navigation-ex": {
+              "isRewritePageTitle": false,
+            "isShowTocTitleIcon": true,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+        },
+        
+        "favicon": {
+            "shortcut": "img/sys/wiki.jpg",
+            "bookmark": "img/sys/wiki.jpg"
+        }
+    }
+}
